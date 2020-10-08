@@ -1,0 +1,182 @@
+font-family: 'Lato', sans-serif;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* header part css start here */
+header{width: 80%;margin:auto;padding: 25px 0;display: flex;justify-content: space-between;}
+.logo{
+
+width: 20%;
+}
+nav{
+
+width: 40%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+
+}
+nav ul li a{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2d3950;
+    text-decoration: none;
+}
+/* header part css end here */
+
+/* banner part css start here */
+.banner{
+    background-image: url(../Images/Banner.png);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-content{font-family: 'Lato', sans-serif;font: weight 400;width: 35%;text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.banner-content h1{
+
+color: #fff;
+
+font-size: 80px;
+
+text-transform: uppercase;
+
+margin: auto;
+
+font-weight: 700;
+}
+.banner-content span{
+
+display: inline-block;
+
+height: 1px;
+
+width: 100%;
+
+background-color: #15a4fa;
+}
+.banner-content p{
+
+font-size: 16px;
+
+color: #fff;
+
+margin-top: 20px;
+}
+.banner-content input[type="button"]{color: #fff;border: none;background: none;text-transform: capitalize;border: 1px solid #15a4fa;padding: 11px 20px;border-radius: 3px;margin-top: 40px;outline: none;transition: .5s all ease-in-out;font-size: 14px;font-weight: 300;}
+.banner-content input[type="button"]:hover{
+    background-color: #15a4fa;
+}
+.icon{
+ font-size: 30px;   
+color: #fff;
+    
+position: absolute;
+    
+top: 85%;
+    
+left: 50%;
+    
+transform: translate(-50%, -85%);
+animation: up-down 1.2s linear infinite;
+animation-direction: alternate;
+}
+@keyframes up-down{
+    0%{
+       top: 85%;
+        }
+    100%{
+        top: 90%;
+    }
+}
+/* banner part css end here */
+
+/* simple and pure design css start here */
+
+.simple_and_pure{
+
+background-color: #f6f9f9;
+
+height: 240px;
+
+display: inline-block;
+}
+.simple_and_pure_design{margin: auto;width: 80%;text-align: center;font-family: 'Lato', sans-serif;}
+.simple_and_pure_design h1{
+    
+padding-top: 20px;
+    
+font-weight: 400;
+    
+color: #2d3950;
+}
+.simple_and_pure_design p{
+
+font-size: 14px;
+
+color: #999999;
+
+line-height: 2em;
+}
+/* simple and pure design css end here */
+
+/* feature content css start here */
+.feature{font-family: 'Lato', sans-serif;width: 80%;margin: auto;display: flex;justify-content: space-between;}
+.feature-one{
+
+width: 30%;
+
+text-align: center;
+
+padding: 50px 0;
+}
+.feature-icon{
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: #48baff; /* Old browsers */
+background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+
+width: 80px;
+
+height: 80px;
+
+font-size: 40px;
+
+margin: auto;
+
+color: #fff;
+
+line-height: 80px;
+}
+.feature-one h3{
+
+color: #2d3950;
+
+font-size: 17px;
+
+font-weight: 600;
+
+margin-block-end: 0em;
+
+margin-block-start: 0em;
+
+margin-top: 25px;
+}
+.feature-one p{display: block;margin-block-start: 0em;margin-block-end: 0em;padding: 20px 0;color: #999999;line-height: 1.8em;font-size: 14px;}
+
+/* feature content css end here */
